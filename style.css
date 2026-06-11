@@ -55,3 +55,7 @@ h2 { font-size: 1.25rem; margin-bottom: 20px; line-height: 1.4; color: #333; }
 #next-btn:active {
     background-color: #005bb5;
 }
+.navigation-controls { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px; }
+.nav-btn { flex: 1; padding: 12px; border: none; border-radius: 10px; cursor: pointer; font-weight: bold; background-color: #e5e5ea; }
+#next-btn { background-color: #007aff; color: white; }
+.nav-btn:active { opacity: 0.8; }
